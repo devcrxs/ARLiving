@@ -1,0 +1,591 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 18363.1556; Version 1909; 64bit' Language: 'es' Physical Memory: 11213 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Cristian Benavides/Documents/PROYECTOS UNITY/Arcore
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63150
+Successfully changed project path to: C:/Users/Cristian Benavides/Documents/PROYECTOS UNITY/Arcore
+C:/Users/Cristian Benavides/Documents/PROYECTOS UNITY/Arcore
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 200.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cristian Benavides/Documents/PROYECTOS UNITY/Arcore/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 Graphics (ID=0x9874)
+    Vendor:   
+    VRAM:     5606 MB
+    Driver:   27.20.14501.28009
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006222 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7213ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1549ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (640ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.215 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4219ms)
+		BeginReloadAssembly (638ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (3308ms)
+			LoadAssemblies (405ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (925ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (1536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (1118ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 7.736700 ms (FindLiveObjects: 0.516100 ms CreateObjectMapping: 0.134100 ms MarkObjects: 6.644800 ms  DeleteObjects: 0.438100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources
+  artifactKey: Guid(534b5475a72f1b8479d3daf75aef6568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(534b5475a72f1b8479d3daf75aef6568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1843becf0bf7a9cedd830a6e5f31f6') in 0.057860 seconds 
+  Import took 0.065600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003543 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(534b5475a72f1b8479d3daf75aef6568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(534b5475a72f1b8479d3daf75aef6568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1843becf0bf7a9cedd830a6e5f31f6') in 0.023020 seconds 
+  Import took 0.030905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072631 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(406200701ce1df8499a4f4f1328ce7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(406200701ce1df8499a4f4f1328ce7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd69138a07df2c79bc02fadf59b7ab6') in 0.204979 seconds 
+  Import took 0.251185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.699615 seconds.
+  path: Assets/3DModels/Fruniture/11_furniture_sofa2.FBX
+  artifactKey: Guid(d04ec79972efa3348b8d4082909627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Fruniture/11_furniture_sofa2.FBX using Guid(d04ec79972efa3348b8d4082909627b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd043349c66ff27c2766bab310c8dd7') in 0.575005 seconds 
+  Import took 0.626455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.275851 seconds.
+  path: Assets/3DModels/Fruniture/Materials/Room_texture.mat
+  artifactKey: Guid(368a21769483438419e1445e23b616c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Fruniture/Materials/Room_texture.mat using Guid(368a21769483438419e1445e23b616c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c282f7cdf99508f65a87e3a42967672d') in 0.191547 seconds 
+  Import took 0.230368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.252642 seconds.
+  path: Assets/Textures/Room_texture.png
+  artifactKey: Guid(285bf1117ae32284a8e6a2172ce810b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Room_texture.png using Guid(285bf1117ae32284a8e6a2172ce810b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235568ac4f3fc9955ac2aa29f5579659') in 0.407606 seconds 
+  Import took 0.415373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.653557 seconds.
+  path: Assets/Sprites/ImagenPerfil.jpg
+  artifactKey: Guid(f522c184f10df4f4da28693d02987a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ImagenPerfil.jpg using Guid(f522c184f10df4f4da28693d02987a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6085af88c3406c448f26cbfe0235f1') in 0.125026 seconds 
+  Import took 0.266053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.405211 seconds.
+  path: Assets/Sprites/Portada.png
+  artifactKey: Guid(a43b51171dba2ee4097478dfb3d1c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Portada.png using Guid(a43b51171dba2ee4097478dfb3d1c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4f3839ae42f0b93daf213af3570b89') in 0.197826 seconds 
+  Import took 0.219022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.683544 seconds.
+  path: Assets/Sprites/Portada.png
+  artifactKey: Guid(a43b51171dba2ee4097478dfb3d1c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Portada.png using Guid(a43b51171dba2ee4097478dfb3d1c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a94fb3f877c128361e8074da71a3841') in 0.099993 seconds 
+  Import took 0.107043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.262976 seconds.
+  path: Assets/Sprites/Portada.png
+  artifactKey: Guid(a43b51171dba2ee4097478dfb3d1c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Portada.png using Guid(a43b51171dba2ee4097478dfb3d1c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a94fb3f877c128361e8074da71a3841') in 0.081342 seconds 
+  Import took 0.088851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1444.655182 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002926 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.009970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045233 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002357 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082967 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003275 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.011903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088298 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003290 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.012730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050350 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007448 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.023714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074116 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003340 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.015491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084364 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007166 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.018593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065125 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005286 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.018281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084847 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003123 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053177 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003401 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072372 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009984 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.017302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079167 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002273 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.014184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071568 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002001 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.015885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067763 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002926 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.015502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066715 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003968 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070660 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003923 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.017058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.232125 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003362 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.013794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079292 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014629 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.026401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305139 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003297 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.011812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006348 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003241 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097066 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002246 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.011837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072564 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009335 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.018007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064567 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004519 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.011995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081112 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003219 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.011320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.143557 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002535 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004718 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.017215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030090 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002275 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.012693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063401 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003687 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.014657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077127 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003837 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074960 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004707 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.017745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081591 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004130 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.016772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068582 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004084 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.013757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074473 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012575 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.018398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063238 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003066 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071509 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003558 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.011346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071420 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010823 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.018339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074755 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003163 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.010567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068612 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004045 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.014285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084973 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002039 seconds  code(4) message(Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z')
+  ERROR: Build asset version error: assets/sprites/icon.png in SourceAssetDB has modification time of '2022-05-06T17:36:54.5334063Z' while content on disk has modification time of '2022-05-06T17:36:57.6173514Z'
+  Import took 0.011704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.410213 seconds.
+  path: Assets/Sprites/Icon.png
+  artifactKey: Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Icon.png using Guid(05306574ae04e13469ec937dfd9b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48402d8924320680749c75fdffdc94fb') in 0.112094 seconds 
+  Import took 0.146808 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.1 MB.
+System memory in use after: 47.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 89.603300 ms (FindLiveObjects: 0.527900 ms CreateObjectMapping: 0.269700 ms MarkObjects: 88.680700 ms  DeleteObjects: 0.120000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
